@@ -1,4 +1,5 @@
 $color-red-primary: #FF4343;
+$color-red-primary-transparent: #FF4343CC;
 $color-red-active: #E71414;
 $color-gray: #6C7279;
 
@@ -12,5 +13,6 @@ $color-gray: #6C7279;
 @import './links';
 @import './btn';
 @import './features.scss';
+@import './gallery.scss';
 
 
