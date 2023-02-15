@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/app.scss">
 </head>
 
@@ -291,8 +291,22 @@
     </section>
 
     <section class="slider">
-      <div class="slider__cover">
-        <img src="./images/slider/slider_1.jpg" alt="" class="slider__cover-img">
+      <div class="slider__content">
+        <div class="slider__cover">
+          <img src="./images/slider/slider_1.jpg" alt="" class="slider__cover-img">
+        </div>
+        <div class="slider__info">
+          <h2 class="slider__title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio
+            dui. Aenean eu leo quam...”</h2>
+          <h6 class="slider__subtitle">Susan Sims, Interaction Designer at XYZ</h6>
+        </div>
+      </div>
+
+      <div class="control slider__control">
+        <div class="control__item"></div>
+        <div class="control__item control__item_active"></div>
+        <div class="control__item"></div>
+        <div class="control__item"></div>
       </div>
     </section>
   </main>

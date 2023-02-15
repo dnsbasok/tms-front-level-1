@@ -18,3 +18,23 @@ a {
   padding: 0 15px;
 }
 
+.control {
+  display: flex;
+  gap: 1.5625rem;
+  justify-content: center;
+
+  &__item {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 50%;
+    border: 1px solid #7E5D6F;
+  }
+
+  &__item_active {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 50%;
+    background: #7E5D6F;
+    border: 1px solid #7E5D6F;
+  }
+}
