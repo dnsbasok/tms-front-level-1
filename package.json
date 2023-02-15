@@ -1,0 +1,25 @@
+{
+  "name": "tms-front-level-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnsbasok/tms-front-level-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnsbasok/tms-front-level-1/issues"
+  },
+  "homepage": "https://github.com/dnsbasok/tms-front-level-1#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
