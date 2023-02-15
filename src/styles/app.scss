@@ -1,5 +1,6 @@
 $color-red-primary: #FF4343;
 $color-red-active: #E71414;
+$color-gray: #6C7279;
 
 // Base
 @import './scaffold';
@@ -10,5 +11,6 @@ $color-red-active: #E71414;
 @import './logo';
 @import './links';
 @import './btn';
+@import './features.scss';
 
 
