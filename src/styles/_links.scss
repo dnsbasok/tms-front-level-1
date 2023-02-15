@@ -1,0 +1,46 @@
+.links {
+  display: flex;
+  justify-content: end;
+
+  &__item {
+    width: 8.375rem;
+    height: 6.25rem;
+    display: block;
+    text-align: center;
+    padding-top: 2.4rem;
+  }
+
+  &__text {
+    width: 8.375rem;
+    height: 1.75rem;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 0.8125rem;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 0.1875rem;
+    margin-top: 2rem;
+    background: #babbc500;
+  }
+
+  &__separator_active {background: #BABBC5}
+
+  &__item:hover {
+    .links__separator {
+      width: 100%;
+      height: 0.1875rem;
+      margin-top: 2rem;
+      background: #BABBC5;
+    }
+  }
+
+  &__item:active {
+    .links__text {color: $color-red-active}
+    .links__separator {background: $color-red-active}
+  }
+}

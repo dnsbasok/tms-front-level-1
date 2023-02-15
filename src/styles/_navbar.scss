@@ -1,0 +1,16 @@
+.navbar {
+  height: 100px;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 0.0625rem;
+    background: #BABBC5;
+  }
+
+}

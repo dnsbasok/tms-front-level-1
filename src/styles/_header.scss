@@ -1,0 +1,28 @@
+.header {
+  background: url('../images/header-bg.jpg');
+  height: 747px;
+}
+
+.hero {
+  padding: 130px 0 120px 0;
+  text-align: center;
+
+  &__title {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__description {
+    margin-top: 2rem;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.12;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
