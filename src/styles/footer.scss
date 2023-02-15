@@ -1,0 +1,35 @@
+.footer {
+  background: #353C65;
+
+  &__content {
+    padding: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__description {
+    max-width: 370px;
+    margin-top: 1.8125rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  &__social {
+    margin-top: 3rem;
+    gap: 1.6875rem;
+    text-align: center;
+  }
+}

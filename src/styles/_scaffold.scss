@@ -38,3 +38,22 @@ a {
     border: 1px solid #7E5D6F;
   }
 }
+
+.copyright {
+  width: 370px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+
+  &__text {
+    color: #808080;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  &__dev {
+    color: white;
+  }
+}
